@@ -19,11 +19,11 @@ document.getElementById('predict-form').addEventListener('submit', (event) => {
   function logisticRegression(formData) {
     // 将非标准化的回归系数和截距添加到这里
     const coefficients = {
-      age: -0.2, // 示例系数
-      gender: -0.3, // 示例系数
-      education: -0.9, // 示例系数
-      single: 1.5, // 示例系数
-      intercept: 0.1, // 示例截距
+      age: -0.2, 
+      gender: -0.3, 
+      education: -0.9, 
+      single: 1.5, 
+      intercept: 0.1, 
     };
   
     // 计算逻辑回归模型的线性组合
