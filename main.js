@@ -13,7 +13,7 @@ document.getElementById('predict-form').addEventListener('submit', (event) => {
     const probability = logisticRegression(formData);
   
     // 显示结果
-    document.getElementById('result').innerText = `再購買機率为:${(probability * 100).toFixed(2)}%`;
+    document.getElementById('result').innerText = `購買機率为:${(probability * 100).toFixed(2)}%`;
   });
   
   function logisticRegression(formData) {
